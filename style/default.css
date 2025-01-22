@@ -1,0 +1,26 @@
+@import url(“https://font.sec.miui.com/font/css?family=MiSans:400,450:Chinese_Simplify,Latin&display=swap”);
+
+@font-face {
+    font-family: "MiSans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    }
+    *:not([class*="icon"]):not(i) {
+    font-family: "MiSans" !important;
+    }
+
+body{
+    background-color: #000000;
+    color: #b994cb;
+    text-align: left;
+}
+
+th{
+    text-align: center;
+    color: #000000;
+    background-color: #8c709a;
+}
+
+a:link{color: #c1bbff;}
+a:visited{color:#807cc4}
+a:active{color: #807ce1;}
