@@ -13,12 +13,50 @@ body{
     background-color: #000000;
     color: #b994cb;
     text-align: left;
+    vertical-align: top;
 }
 
 th{
     text-align: center;
     color: #000000;
     background-color: #8c709a;
+}
+
+th.header{
+    width: 618px;
+}
+
+.main{
+    margin: auto;
+    width: 768px;
+}
+
+.detail{
+    text-align: left;
+    vertical-align: bottom;
+    color: #cccccc;
+}
+
+td.blank_top{
+    height: 55px;
+}
+
+td.blank_bottom{
+    height: 100px;
+}
+
+td.blank_left{
+    width: 20%;
+}
+
+#blank_left_home{
+    width: 240px;
+}
+
+.footer{
+    color: #8c709a;
+    text-align: center;
+    font-size: 0.75em;
 }
 
 a:link{color: #c1bbff;}
