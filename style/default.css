@@ -16,6 +16,10 @@ body{
     vertical-align: top;
 }
 
+table{
+    border-collapse: collapse;
+}
+
 th{
     text-align: center;
     color: #000000;
@@ -36,6 +40,12 @@ th.header{
     vertical-align: bottom;
     color: #cccccc;
 }
+
+/*
+tr:hover{
+    background-color: #333333;
+}
+*/
 
 td.blank_top{
     height: 55px;
