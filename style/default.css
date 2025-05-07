@@ -28,9 +28,14 @@ th.header{
     width: 618px;
 }
 
-.main{
+#container{
     margin: auto;
     width: 768px;
+}
+
+#title{
+    width: 768px;
+    height: 233px;
 }
 
 .detail{
@@ -59,6 +64,11 @@ td.blank_left{
 
 #blank_left_home{
     width: 240px;
+    float: left;
+}
+
+#passage_home{
+    width: 528px;
 }
 
 .footer{

@@ -6,38 +6,44 @@
         <link rel="apple-touch-icon" sizes="180x180" href="../src/marisa_180x180.png">
         <link rel="stylesheet" type="text/css" href="../style/default.css">
         <link rel="stylesheet" type="text/css" href="../style/misans.css">
-        <script type="text/javascript" src="../script/midi.js"></script>
         <meta name="author" content="奔跑中的小白">
-        <title>Music & Video  ~ 小白的幻想空间</title>
+        <title>Mysterious Note  ~ 小白的幻想空间</title>
     </head>
     <script defer src="https://cn.vercount.one/js"></script>
     <body>
         <table id="container">
             <tbody>
                 <tr>
-                    <td colspan="2">
-                        <img src="../img/title5_out.png" height="180"
-                        onmouseover="this.src='../img/title5_over.png'" onmouseout="this.src='../img/title5_out.png'">
-                    </td>
-                    <td class="detail">
-                        音乐与视频。<br>
-                        以MIDI音乐为主。
+                    <td colspan="3" class="blank_top"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <font size="6">
+                            如何在现代浏览器上播放本站的MIDI文件
+                        </font><br>
+                        <span class="detail">
+                            2025.05.05<br>
+                        </span>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="3" class="blank_top"></td>
                 </tr>
                 <tr align="left">
-                    <td class="blank_left"></td>
-                    <td colspan="2">
-                        这个页面仅供测试。<br>
-                        你看到的所有内容都可能在未来的更新中删除。<br>
-                        使用JavaScript以在现代浏览器上播放MIDI音乐。<br>
-                        <!--
-                            <midi-player src="../media/midi/zun/zun005.mid" 
-                            visualizer="001"></midi-player>
-                        -->
-                        <object align="left" data="../media/midi/zun005.mid"></object>
+                    <td colspan="3">
+                        我在<a href="../media/index.html">幻想音像馆</a>中上传了一些MIDI文件，
+                        不过在现代浏览器上播放有点困难。下面是我的解决方案。<br>
+                        <br>
+                        <font size="4" color="#cccccc">
+                            使用 MIDI.js <br>
+                        </font>
+                        这是一个使用 JavaScript 来在线播放 MIDI 文件的脚本。
+                        它可以开箱即用，但是由于它通过浏览器的 “Tiny Synth” 输出设备播放，
+                        所以音质奇差。因此，除非万不得已，请使用下面的方法。<br>
+                        <br>
+                        <font size="4" color="#cccccc">
+                            使用 Jazz <br>
+                        </font>
                     </td>
                 </tr>
                 <tr>
