@@ -14,6 +14,10 @@ body{
     vertical-align: top;
 }
 
+code{
+    color: #cccccc;
+}
+
 table{
     border-collapse: collapse;
 }
