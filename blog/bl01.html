@@ -35,23 +35,23 @@
                         <a href="https://support.apple.com/zh-cn/101578" target="_blank">创建 OS X 10.11 以后操作系统的安装盘</a>，
                         但在这之前的系统并不适用。这个教程教你如何创建它们的安装映像。<br>
                         <br>
-                        <font size="4" color="#cccccc">
-                            获取映像 <br>
-                        </font>
+                        <big class="h">
+                            获取映像 <br>    
+                        </big>
                         在<a href="https://support.apple.com/zh-cn/102662" target="_blank"> Apple 支持</a>上
                         下载映像，你应该会得到一个 .dmg 文件。打开它后把里面的软件包 (.pkg) 文件拖出来。<br>
                         <img src="../img/blog/bl01_01.png" alt="下载的映像，以及拖出来的 .pkg 文件"><br>
                         <font color="#cccccc">图一：下载的映像，以及拖出来的 .pkg 文件</font><br>
                         <br>
-                        <font size="4" color="#cccccc">
+                        <big class="h">
                             解包 .pkg 文件 <br>
-                        </font>
+                        </big>
                         打开「终端」（应该在「其他」文件夹内），运行以下命令：
                         <code>xar -xf [PKG文件路径]</code><br>
                         （注：把文件拖到终端里可以获得它的路径）<br>
                         之后，你会在用户文件夹里得到一个名字一模一样的 .pkg 文件，但是此时，我们可以右键点击
                         「显示包内容」，再把内部的 InstallESD.dmg 拖出来。这便是 OS X 的安装镜像了。
-                        你可以直接使用它，或者用「磁盘工具」把它写入到外置的 U 盘里面。<br>
+                        你可以直接使用它，或者用「磁盘工具」把它写入到 U 盘里面。<br>
                         <img src="../img/blog/bl01_02.png" width="768" alt="在 VMware Fusion 中使用解包出来的映像安装 OS X Mountain Lion"><br>
                         <font color="#cccccc">图二：在 VMware Fusion 中使用解包出来的映像安装 OS X Mountain Lion</font><br>
                         <br>
