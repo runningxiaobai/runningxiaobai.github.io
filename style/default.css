@@ -54,7 +54,7 @@ th.header{
 }
 
 /*
-tr:hover{
+tr:hover.{
     background-color: #333333;
 }
 */
@@ -89,3 +89,7 @@ td.blank_left{
 a:link{color:#807cc4;}
 a:visited{color:#807cc4;}
 a:active{color:#807cc4;}
+
+a.linktitle{
+    font-size: 1.5em;
+}
