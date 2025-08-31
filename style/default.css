@@ -18,6 +18,10 @@ code{
     color: #cccccc;
 }
 
+img{
+    border: none;
+}
+
 table{
     border-collapse: collapse;
 }
@@ -53,12 +57,6 @@ th.header{
     color: #cccccc;
 }
 
-/*
-tr:hover.{
-    background-color: #333333;
-}
-*/
-
 td.blank_top{
     height: 55px;
 }
@@ -69,6 +67,7 @@ td.blank_bottom{
 
 td.blank_left{
     width: 150px;
+    float: left;
 }
 
 #blank_left_home{
